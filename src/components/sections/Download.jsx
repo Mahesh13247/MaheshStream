@@ -643,7 +643,7 @@ export default function Download() {
         </motion.div>
 
         {/* Direct Download Link for Desktop Users */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.5, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
@@ -681,7 +681,7 @@ export default function Download() {
           >
             {getApkAbsoluteUrl().replace(/^https?:\/\//, '')}
           </a>
-        </motion.div>
+        </motion.div> */}
       </div>
     </Section>
   )
