@@ -23,17 +23,7 @@ const footerNav = [
       { label: 'FAQ', href: '#faq' },
     ],
   },
-  {
-    title: 'Community',
-    icon: '◇',
-    links: [
-      { label: 'GitHub', href: SOCIAL_LINKS.github, external: true },
-      { label: 'Twitter', href: SOCIAL_LINKS.twitter, external: true },
-      { label: 'Telegram', href: SOCIAL_LINKS.telegram, external: true },
-      { label: 'Discord', href: SOCIAL_LINKS.discord, external: true },
-      { label: 'LinkedIn', href: SOCIAL_LINKS.linkedin, external: true },
-    ],
-  },
+ 
   {
     title: 'Legal',
     icon: '○',
