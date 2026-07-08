@@ -1,0 +1,28 @@
+{
+  "name": "MaheshStream",
+  "short_name": "MaheshStream",
+  "description": "One Platform. Endless Entertainment. Stream movies, TV shows, web series, and live TV.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#e60000",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "related_applications": [],
+  "protocols": {
+    "url_handlers": [
+      {
+        "url": "https://maheshstream.com/*",
+        "scopes": ["https://maheshstream.com/*"]
+      }
+    ]
+  }
+}
