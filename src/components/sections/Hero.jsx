@@ -250,7 +250,7 @@ export default function Hero() {
           style={{ marginBottom: '32px' }}
         >
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-           <img src="./logo.png" alt="MaheshStream logo" style={{ width: '150px'}}/>
+           <img src="/logo.png" alt="MaheshStream logo" style={{ width: '150px'}}/>
           </div>
         </motion.div>
 
@@ -407,40 +407,6 @@ export default function Hero() {
           </div>
         </motion.div>
       </div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-        style={{
-          display: 'flex',
-        }}
-      >
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-          style={{
-            width: '24px',
-            height: '40px',
-            border: '2px solid var(--color-border)',
-            borderRadius: '12px',
-            display: 'flex',
-            justifyContent: 'center',
-            paddingTop: '9px',
-          }}
-        >
-          <motion.div
-            animate={{ opacity: [1, 0, 1], y: [0, 6, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-            style={{
-              width: '3px',
-              height: '10px',
-              borderRadius: '2px',
-              background: 'var(--color-red)',
-            }}
-          />
-        </motion.div>
-      </motion.div>
     </section>
   )
 }

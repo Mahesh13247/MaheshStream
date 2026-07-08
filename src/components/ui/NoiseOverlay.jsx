@@ -37,6 +37,8 @@ export default function NoiseOverlay({ opacity = 0.035 }) {
         clearInterval(intervalId)
       }
     }
+
+    return () => {}
   }, [opacity])
 
   return (
